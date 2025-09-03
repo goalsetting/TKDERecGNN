@@ -1,0 +1,16 @@
+dataset: ml-100k
+embedding_size: 64
+num_panes: 10
+pane_update_interval: 3  # 每3个epoch更新窗格
+temperature: 0.7
+
+train:
+  epochs: 50
+  batch_size: 512
+  learning_rate: 0.001
+
+llm:
+  cache_size: 100
+  batch_size: 4
+  max_desc_length: 128
+# 每 3 个 epoch 更新窗格 temperature： 0.7 train： epochs： 50 batch_size： 512 learning_rate： 0.001 llm： cache_size： 100 batch_size： 4 max_desc_length： 128
