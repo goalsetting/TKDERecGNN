@@ -1,5 +1,4 @@
-# Controllable Exploration-Exploitation in User-Item Interactions  
-**Pane-Aware Graph Transformer Architecture**
+# Controllable Exploration-Exploitation in User-Item Interactions: A Pane-Aware Graph Transformer Architecture
 
 This repository contains the implementation of the paper submitted to *TKDE*:  
 *"Controllable Exploration-Exploitation in User-Item Interactions Toward Long-Term Recommendation Gains: A Pane-Aware Graph Transformer Architecture."*
