@@ -37,7 +37,7 @@ class PaneLLMEnhancer:
         response = requests.post(url, headers=headers, json=data)
         return response.json()
 
-    def generate_completion(self,prompt, model="deepseek-r1:1.5b"):
+    def generate_completion(self,prompt, model="deepseek-r1:32b"):
         url = "http://127.0.0.1:11434/api/generate"
         headers = {"Content-Type": "application/json"}
         data = {"model": model, "prompt": prompt, "stream": False}
@@ -207,4 +207,5 @@ class PaneLLMEnhancer:
     #     user_prompt = "帮我生成美甲产品的用户画像"  # 你的prompt
     #     result = generate_with_deepseek(user_prompt)
     #     print("API Response:\n", result)
+
 
